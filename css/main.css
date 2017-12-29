@@ -49,7 +49,7 @@ img:nth-child(5) {
     width: 50%;
   }
 
-  img:nth-child(1){
+  img:nth-child(1) {
     display: block;
     width: 100%;
   }
@@ -62,11 +62,11 @@ img:nth-child(5) {
     line-height: 1.4;
   }
 
-  img:nth-child(n+2){
+  img:nth-child(n+2) {
     width: 33.3333%;
   }
 
-  img:nth-child(5){
+  img:nth-child(5) {
     display: none;
   }
 }
