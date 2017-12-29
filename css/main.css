@@ -18,7 +18,7 @@ body {
 }
 
 img {
-  display: inline-block;
+  display: block;
   float: left;
   width: 100%;
   margin: 0;
@@ -60,6 +60,14 @@ img:nth-child(5) {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  img:nth-child(n+2){
+    width: 33.3333%;
+  }
+
+  img:nth-child(5){
+    display: none;
   }
 }
 
