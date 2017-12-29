@@ -77,4 +77,26 @@ img:nth-child(5) {
     font-size: 120%;
     line-height: 1.5;
   }
+
+  img {
+    display: inline-block;
+    width: 33.3333%;
+  }
+
+  img:nth-child(1){
+    width: 66.6666%;
+  }
+
+  img:nth-child(5) {
+    display: inline;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
 }
