@@ -18,7 +18,7 @@ body {
 }
 
 img {
-  display: inline;
+  display: inline-block;
   float: left;
   width: 100%;
   margin: 0;
