@@ -38,6 +38,21 @@ img:nth-child(5) {
     font-size: 100%;
     line-height: 1.3;
   }
+
+  img:nth-child(even) {
+    display: inline;
+    width: 50%;
+  }
+
+  img:nth-child(odd) {
+    display: inline;
+    width: 50%;
+  }
+
+  img:nth-child(1){
+    display: block;
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 38em) {
